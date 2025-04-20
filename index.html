@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Haikal's Personal Web</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: rgb(0, 174, 255);
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+      color: black;
+      margin: 40px 0 20px 0;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .grid-item {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px black;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .grid-item:hover {
+      transform: scale(1.05);
+    }
+
+    .grid-item a {
+      text-decoration: none;
+      color: orange;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgb(0, 174, 255);
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Haikal Webs</h1>
+    <p>Explore My Biodata, Hobbies, and Campus Life!</p>
+  </header>
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <h2>Biodata</h2>
+      <p><a href="biodata.html">View My Biodata</a></p>
+    </div>
+    <div class="grid-item">
+      <h2>Hobbies</h2>
+      <p><a href="hobbies.html">View My Hobbies</a></p>
+    </div>
+    <div class="grid-item">
+      <h2>Campus Life</h2>
+      <p><a href="campuslife.html">Explore My Campus Life</a></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Wan Muhammad Haikal</p>
+  </footer>
+</body>
+</html>
